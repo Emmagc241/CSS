@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    @import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat#about);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #2c3e50;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: #2980b9;
+    text-shadow: 1px 1px #2980b9;
+    color: #2980b9;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #2980b9, 0 0 30px #2980b9, 0 0 40px #2980b9, 0 0 55px #2980b9, 0 0 75px #2980b9;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.colores {
+    width: 100%;
+    height: 30px;
+}
+
+#cyan {
+    background-color: #2980b9;
+}
+
+#rgb1 {
+    background-color: rgb(39, 115, 167);
+}
+
+#rgb2 {
+    background-color: rgb(36, 103, 148);
+}
+
+#rgb3 {
+    background-color: rgb(33, 91, 129);
+}
+
+/*HEXADECIMAL*/
+#hex1{
+    background-color: #1f4f6e;
+}
+
+#hex2 {
+    background-color: #1a3f58;
+}
+
+#hex3 {
+    background-color: #18374d;
+}
+
+#rgb41 {
+    background-color: #112838;
+}
+
+#rgb42 {
+    background-color: #09161f;
+}
+
+#rgb43 {
+    background-color: #000000;
+}
+
+#rgb44 {
+    background-color: #505050;
+}
+
+#rgb45 {
+    background-color: #7a7a7a;
+}
+
+#rgb46 {
+    background-color: #a1a1a1;
+}
+
+#rgb47 {
+    background-color: #c7c7c7;
+}
+
+#rgb48 {
+    background-color: #ffffff;
+}
+
+/*HSL*/
+
+#hsl1{
+    background-color: #c7c7c7;
+}
+
+#hsl2{
+    background-color: #a1a1a1;
+}
+
+#hsl3{
+    background-color: #7a7a7a;
+}
+
+#hsl4{
+    background-color: #505050;
+}
+
+#hsl5{
+    background-color: #000000;
+}
+
+#rgba {
+    background-color: rgb(255, 255, 255, 1);
+}
+
+#hsla {
+    background-color: hsla(360, 100%, 100%, 0.8);
+}
+
+#hexA {
+    background-color: #ffffff77;
+}
+
+#harcore {
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+}
+
+#loquesea {
+    background-color: red;
+    width: 50%;
+    height: 50px;
+}

@@ -1,0 +1,91 @@
+/*Selector Universal
+Selecciona todas las etiquetas del HTML*/
+
+*{
+    margin: 0;
+}
+
+/*   Selectores  */
+
+h1 {
+    color: #2c3e50;
+    font-size: 5rem;
+    @import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat#about);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 5rem;
+    @import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat#about);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+
+/*Selector por medio de clase*/
+
+.lower-section,
+.upper-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(#2980b9, 0.5);
+}
+
+.upper-section {
+  min-height: 10em;
+  width: 100%;
+  background: #34495e;
+}
+
+.lower-section{
+  min-height: 20em;
+  width: 100%;
+  background:  #2c3e50;
+}
+
+.section-divider {
+  position: relative;
+}
+
+.section-divider:before {
+      content: ""; 
+      width: 6.5rem;
+      height: 6.5rem;
+      background: #2c3e50;
+      border-radius: 100%;
+      position: absolute;
+      top: -3.25rem;
+      left: calc(50% - 3.25rem);
+      color: rgba(#2980b9, 0.5);
+      line-height: 6rem;
+      text-indent: 1.75rem;
+      font-size: 3rem;
+}
+
+/*Selector por medio del id*/
+
+#segunda-sec{
+    margin-top: 1em;
+}
+
+#p-upper{
+    color: #2c3e50;
+    font-size: 2rem;
+    @import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat#about);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+#p-lower{
+    color: #34495e;
+    font-size: 2rem;
+    @import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat#about);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: -1em;
+}

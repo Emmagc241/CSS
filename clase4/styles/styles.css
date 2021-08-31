@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  border: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+  font-family: "Raleway", sans-serif;
+}
+
+#fondo {
+  width: 100%;
+  height: 100px;
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#fondo2 {
+  width: 100%;
+  height: 200px;
+  background: rgb(244, 0, 189);
+  background: linear-gradient(
+    180deg,
+    rgba(244, 0, 189, 1) 0%,
+    rgba(91, 255, 181, 1) 100%
+  );
+}
+
+#fondo3 {
+  width: 100%;
+  height: 200px;
+  background: rgb(244, 0, 189);
+  background: linear-gradient(
+    0deg,
+    rgba(244, 0, 189, 1) 0%,
+    rgba(91, 255, 181, 1) 100%
+  );
+}
+
+
+ul {
+    list-style: none;
+    list-style-position: inside;
+}
+
+li {
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid cadetblue;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+a {
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    color: black;
+}
+a:link{
+    color: thistle;
+}
+
+a:hover {
+    color: darkblue;
+    border: 1px solid blue;
+    background-color: cadetblue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:active {
+    color: cornflowerblue;
+    background-color: cornsilk;
+    border: 1px dotted red;
+}
