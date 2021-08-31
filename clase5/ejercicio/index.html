@@ -1,57 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <title>Maquetación</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <ul class="topnav">
-                <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#">MORE INFO</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">PAGE EXAMPLE</a></li>
-                <li><a href="#">VIEW PRO</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">GET A QUOTE</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="main">
+        <div class="main__container">
+            <div class="nav">
+                <a href="" class="nav__link">HOME</a>
+                <a href="" class="nav__link">MORE INFO</a>
+                <a href="" class="nav__link">BLOG</a>
+                <a href="" class="nav__link">PAGE EXAMPLE</a>
+                <a href="" class="nav__link">VIEW PRO</a>
+                <a href="" class="nav__link">CONTACT</a>
+                <a href="" class="nav__link">GET A QUOTE</a>
+            </div>
 
-    <article>
-        <section>
-            <h1>Use our trusted service to <br> build your <span>dream home</span></h1>
-            <p>The practice of deigning, constructing, and operating buildings <br> is most usually a collective effort
-                of different groups <br> of professionals and trades.</p>
-        </section>
+            <div class="content container">
+                <div class="content__text">
+                    <h2 class="content__title">Lorem ipsum, dolor sit amet  consectetur <span class="span"> adipisicing.</span></h2>
+                    <p class="content__sentence">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam deserunt eius beatae in atque hic iste eos unde saepe animi amet adipisci, doloribus enim at officiis deleniti esse minima sapiente?</p>
+                </div>
 
-        <section class="container">
-            <form action="action_page.php">
+                <form action="" class="form">
+                    <h2 class="form__title">Get a Free Quote</h2>
+                    <p class="form__sentence">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure deserunt labore pariatur hic repellendus rem.</p>
 
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                  <option value="mexico">México</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
-                </select>
-            
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-            
-                <input type="submit" value="Submit">
-            
-              </form>
-        </section>
-    </article>
+                    <div class="form__inputs">
+                        <input type="text" placeholder="Nombre" class="input">
+                        <input type="email" placeholder="Correo" class="input">
+                        <input type="text" placeholder="Nombre" class="input">
+                        <textarea placeholder="Comentarios" class="input--area"></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
-
 </html>
