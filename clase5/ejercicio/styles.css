@@ -154,6 +154,10 @@ body{
     .main{
         height: auto;
     }
+
+    .nav__link{
+        font-size: 12px;
+    }
     
     .content{
         display: flex;
@@ -173,7 +177,6 @@ body{
         margin: auto;
     }
 
-    
 }
 
 
