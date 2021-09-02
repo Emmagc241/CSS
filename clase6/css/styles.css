@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.main{
-    position: relative;
-}
+
 
 body{
-   padding: .1px;
+   padding-top: .1px;
+   scroll-behavior: smooth;
+ }
+   
+ main{
+    position: relative;
+    padding: 0 20px;
+    
+ 
 }
-
 
 div{
     width: 300px;
@@ -21,17 +27,36 @@ div{
 #papa{
     background-color: dodgerblue;
     position: absolute;
-    left: 50px;
-    width: 200px;
-    height: 200px;
-    
+    right:0px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
 }
 #hijo{
-    background-color: gold;
+    background-color: #2e37e2ae;
     position: absolute;
     bottom: 0;
-    right: 72px;
-    z-index: 2;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.back{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+   
+
+
 }
  ul{
     width: 100%;
@@ -45,8 +70,8 @@ div{
     text-align: center;
     background-color: dodgerblue;
     position: fixed;
- 
-    
+    z-index: 10 ;
+
 }
 .link{
     display: inline-block;
@@ -62,3 +87,7 @@ p{
   margin-top: 80px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
