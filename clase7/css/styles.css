@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+code{
+    font-family:Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* div code{
+    color: dodgerblue;
+    background-color: #ccc;
+} */
+
+
+div code{
+    color: dodgerblue;
+    background-color: #ccc;
+}
+
+div>code{
+    color: white;
+}
+
+div pre code{
+    background-color: blue;
+}
+
+
+/*Selecciona elemento*/
+div + p{
+    background-color: dodgerblue;
+} 
+
+/*Selecciona todos los elementos desoues del div*/
+div ~ p{
+    background-color: lightgreen;
+}
+
+#sec1{
+    background-color: red;
+}
+
+section#sec1{
+    background-color: rgba(30, 143, 255, 0.739);
+}
+
+html > body > section{
+    background-color: rgb(39, 14, 107);
+}
+
+
+.amarillo{
+    color: yellow;
+    font-weight: bold;
+}
+
+code.amarillo{
+    background-color: tomato;
+}
+
+
+p.amarillo important{
+    background-color: teal;
+}
+
+section #sec1 .amarillo{
+    background-color: green ;
+}
+
+#stefan{
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+}
+
+
+#stefan::after{
+    content:url(../img/M.png) ;
+}
