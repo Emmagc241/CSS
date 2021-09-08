@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-text:#232C33;
+    --color-primary:#2CC784;
+    --color-bg:#EEEEEE;
+
+}
+
+body{
+    background-color: var(--color-bg);
+    font-family: 'Poppins';
+}
+
+.container{
+    max-width: 1200px;
+    margin: 90%;
+    margin: auto;
+}
+
+/*---------------Menú de navegación--------------------*/
+
+.nav{
+    background-color: white;
+    height: 70px;
+}
+
+.nav__container{
+    list-style: none;
+    display: flex;
+}
+
+.nav__container li{
+    width: 100%;
+    text-align: center;
+}
+
+.nav__link{
+    display: inline-block;
+    line-height: 70px;
+    width: 100%;
+    text-decoration: none;
+    color:var(--color-text);
+    background-color:white;
+}
+
+.nav__link:hover{
+    background-color: var(--color-primary);
+    color: white;
+    transition: .2s;
+}
+
+.nav__link:active{
+    background-color: dodgerblue;
+    transition: .2s;
+}
+
+
+#animes__ul{
+    color: var(--color-primary);
+    display: none;
+    list-style: none;
+
+}
+
+#animes__ul li{
+    padding: 10px 0;
+}
+
+#animes:hover ~ #animes__ul{
+    display:block;
+    color: var(--color-text);
+    background-color: white;
+    box-shadow: 0px 0px 10px #cecece;
+}
+
+
+/*-----------------Media querys-----------------*/
+
+@media screen and (max-width:750px) {
+    .nav__container{
+        flex-direction: column;
+    }
+
+    #animes:hover ~ #animes__ul{
+    display:block;
+    color: var(--color-text);
+    background-color: #eee;
+    box-shadow: none;
+    }
+}
